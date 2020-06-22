@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AmbTatooineDesertDayLoop</SubtypeId>
+      </Id>
+      <Category>AMB</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>0.6</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Loop>Audio\ARC\AMB\AmbTatooineDesertDayLoop.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AmbTatooineDesertNightLoop</SubtypeId>
+      </Id>
+      <Category>AMB</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>0.6</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Loop>Audio\ARC\AMB\AmbTatooineDesertNightLoop.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AmbTatooineDesertRocksDayLoop</SubtypeId>
+      </Id>
+      <Category>AMB</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>0.6</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Loop>Audio\ARC\AMB\AmbTatooineDesertRocksDayLoop.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AmbTatooineDesertRocksNightLoop</SubtypeId>
+      </Id>
+      <Category>AMB</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>0.6</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Loop>Audio\ARC\AMB\AmbTatooineDesertRocksNightLoop.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AmbTatooineMountainsLoop</SubtypeId>
+      </Id>
+      <Category>AMB</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>0.6</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Loop>Audio\ARC\AMB\AmbTatooineMountainsLoop.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+  </Sounds>
+
+</Definitions>

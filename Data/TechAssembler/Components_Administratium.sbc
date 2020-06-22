@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Components>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Administratium</SubtypeId>
+            </Id>
+            <DisplayName>Administratium</DisplayName>
+            <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>0</Mass>
+            <Volume>0</Volume>
+            <Model>Models\Components\ExplosivesComponent.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>5000</MaxIntegrity>
+            <DropProbability>0</DropProbability>
+            <Health>5000</Health>
+            <MinimumOfferAmount>0</MinimumOfferAmount>
+            <MaximumOfferAmount>0</MaximumOfferAmount>
+            <MinimumOrderAmount>0</MinimumOrderAmount>
+            <MaximumOrderAmount>0</MaximumOrderAmount>
+            <CanPlayerOrder>false</CanPlayerOrder>
+            <MinimumAcquisitionAmount>0</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>0</MaximumAcquisitionAmount>
+        </Component>
+
+    </Components>
+    
+</Definitions>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <BlueprintClasses>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>TechComponents</SubtypeId>
+            </Id>
+            <DisplayName>Tech Components</DisplayName>
+            <Icon>Textures\GUI\Icons\tech_icon.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\tech_icon.dds</HighlightIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+        
+    </BlueprintClasses>
+
+    <BlueprintClassEntries>
+
+        <Entry Class="TechComponents" BlueprintSubtypeId="Tech2x"/>
+        <Entry Class="TechComponents" BlueprintSubtypeId="Tech4x"/>
+        <Entry Class="TechComponents" BlueprintSubtypeId="Tech8x"/>
+
+    </BlueprintClassEntries>
+
+</Definitions>

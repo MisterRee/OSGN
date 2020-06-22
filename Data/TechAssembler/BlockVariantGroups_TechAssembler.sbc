@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TechAssembler" />
+            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+            <DisplayName>Tech Assembler</DisplayName>
+            <Description>Assembles Tech Components.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Assembler" Subtype="TechAssembler" />
+            </Blocks>
+        </BlockVariantGroup>
+
+    </BlockVariantGroups>
+
+</Definitions>

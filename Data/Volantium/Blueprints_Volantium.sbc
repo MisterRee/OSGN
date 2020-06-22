@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Blueprints>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>VolantiumOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>Refine Volantium</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\volantium_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Volantium" />
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.001" TypeId="Ingot" SubtypeId="Volantium" />
+            </Results>
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+    </Blueprints>
+    
+</Definitions>

@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Definition xsi:type="MyObjectBuilder_VoxelMaterialModifierDefinition">
+    <Id Subtype="DustyDesertPlanetMountains" Type="MyObjectBuilder_VoxelMaterialModifierDefinition"/>
+    <Options>
+      <Option Chance="0.25">
+        <Change From="Stone" To="AlienRockyMountain"/>
+      </Option>
+      <Option Chance="0.25">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.25">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.03">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.03">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.03">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+    </Options>
+  </Definition>
+  <Definition xsi:type="MyObjectBuilder_VoxelMaterialModifierDefinition">
+    <Id Subtype="DustyDesertPlanetMountainsSnow" Type="MyObjectBuilder_VoxelMaterialModifierDefinition"/>
+    <Options>
+      <Option Chance="0.25">
+        <Change From="Stone" To="AlienRockyMountain"/>
+      </Option>
+      <Option Chance="0.25">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.25">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.03">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.03">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="AlienRockyMountain"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+    </Options>
+  </Definition>
+  <Definition xsi:type="MyObjectBuilder_VoxelMaterialModifierDefinition">
+    <Id Subtype="DustyDesertPlanetDesertRocks" Type="MyObjectBuilder_VoxelMaterialModifierDefinition"/>
+    <Options>
+      <Option Chance="0.25">
+        <Change From="Stone" To="DesertRocks"/>
+      </Option>
+      <Option Chance="0.25">
+        <Change From="Stone" To="DesertRocks"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.25">
+        <Change From="Stone" To="DesertRocks"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.03">
+        <Change From="Stone" To="DesertRocks"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.03">
+        <Change From="Stone" To="DesertRocks"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.03">
+        <Change From="Stone" To="DesertRocks"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="DesertRocks"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="DesertRocks"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+      <Option Chance="0.1">
+        <Change From="Stone" To="DesertRocks"/>
+        <Change From="Iron_01" To="MarsRocks"/>
+        <Change From="Iron_02" To="MarsRocks"/>
+      </Option>
+    </Options>
+  </Definition>
+</Definitions>

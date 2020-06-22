@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Factions>
+
+    <Faction Tag="SPRT" Founder="Space Pirates">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>SpacePirates</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Faction_SpacePirates</DisplayName>
+      <IsDefault>true</IsDefault>
+      <StartingBalance>100000000</StartingBalance>
+      <Type>Trader</Type>
+      <AutoAcceptMember>false</AutoAcceptMember>
+      <AcceptHumans>false</AcceptHumans>
+      <DiscoveredByDefault>true</DiscoveredByDefault>
+      <FactionIcon>Textures\FactionLogo\PirateIcon.dds</FactionIcon>
+    </Faction>
+
+    <Faction Tag="VNTC" Founder="Barney Norbertson">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>VolantisNorthernTradeCompany</SubtypeId>
+      </Id>
+      <DisplayName>Volantis Northern Trade Company</DisplayName>
+      <IsDefault>true</IsDefault>
+      <StartingBalance>0</StartingBalance>
+      <Type>Trader</Type>
+      <EnableFriendlyFire>true</EnableFriendlyFire>
+      <DefaultRelation>Neutral</DefaultRelation>
+      <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+      <DiscoveredByDefault>true</DiscoveredByDefault>
+      <FactionIcon>Textures\FactionLogo\VNTC.dds</FactionIcon>
+    </Faction>
+
+    <Faction Tag="LOAF" Founder="D Arnold Becker">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>LowOrbitAssemblyFacility</SubtypeId>
+      </Id>
+      <DisplayName>Low Orbit Assembly Facility</DisplayName>
+      <IsDefault>true</IsDefault>
+      <StartingBalance>0</StartingBalance>
+      <Type>Trader</Type>
+      <EnableFriendlyFire>true</EnableFriendlyFire>
+      <DefaultRelation>Neutral</DefaultRelation>
+      <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+      <DiscoveredByDefault>true</DiscoveredByDefault>
+      <FactionIcon>Textures\FactionLogo\VNTC.dds</FactionIcon>
+    </Faction>
+
+  </Factions>
+
+</Definitions>

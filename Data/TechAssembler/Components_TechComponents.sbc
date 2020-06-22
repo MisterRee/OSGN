@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Components>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Tech2x</SubtypeId>
+            </Id>
+            <DisplayName>Tier 1 Tech</DisplayName>
+            <Icon>Textures\tech2x.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>50</Mass>
+            <Volume>1</Volume>
+            <Model>Models\Components\gravity_generator_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>500</MaxIntegrity>
+            <DropProbability>0.6</DropProbability>
+            <Health>1000</Health>
+            <MinimalPricePerUnit>100000</MinimalPricePerUnit>
+            <MinimumOfferAmount>4</MinimumOfferAmount>
+            <MaximumOfferAmount>20</MaximumOfferAmount>
+            <MinimumOrderAmount>4</MinimumOrderAmount>
+            <MaximumOrderAmount>20</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <MinimumAcquisitionAmount>2</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>20</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Tech4x</SubtypeId>
+            </Id>
+            <DisplayName>Tier 2 Tech</DisplayName>
+            <Icon>Textures\tech4x.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>60</Mass>
+            <Volume>1</Volume>
+            <Model>Models\Components\gravity_generator_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>500</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>2000</Health>
+            <MinimalPricePerUnit>750000</MinimalPricePerUnit>
+            <MinimumOfferAmount>2</MinimumOfferAmount>
+            <MaximumOfferAmount>10</MaximumOfferAmount>
+            <MinimumOrderAmount>2</MinimumOrderAmount>
+            <MaximumOrderAmount>10</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <MinimumAcquisitionAmount>2</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>10</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Tech8x</SubtypeId>
+            </Id>
+            <DisplayName>Tier 3 Tech</DisplayName>
+            <Icon>Textures\tech8x.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>70</Mass>
+            <Volume>1</Volume>
+            <Model>Models\Components\gravity_generator_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>500</MaxIntegrity>
+            <DropProbability>0.20</DropProbability>
+            <Health>4000</Health>
+            <MinimalPricePerUnit>2000000</MinimalPricePerUnit>
+            <MinimumOfferAmount>1</MinimumOfferAmount>
+            <MaximumOfferAmount>5</MaximumOfferAmount>
+            <MinimumOrderAmount>1</MinimumOrderAmount>
+            <MaximumOrderAmount>5</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <MinimumAcquisitionAmount>1</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>5</MaximumAcquisitionAmount>
+        </Component>
+
+    </Components>
+
+</Definitions>

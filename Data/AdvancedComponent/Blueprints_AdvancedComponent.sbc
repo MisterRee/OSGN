@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Blueprints>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AdvancedComponent</SubtypeId>
+            </Id>
+            <DisplayName>Advanced Component</DisplayName>
+            <Icon>Textures\GUI\Icons\advanced_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="100" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="100" TypeId="Ingot" SubtypeId="Platinum" />
+                <Item Amount="100" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Uranium" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Volantium" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Tearium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="AdvancedComponent" />
+            <BaseProductionTimeInSeconds>80</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+    </Blueprints>
+
+</Definitions>

@@ -599,7 +599,7 @@
       <Category>SOUND_MOD</Category>
       <MaxDistance>2000</MaxDistance>
       <Volume>1.00</Volume>
-      <Loopable>true</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Sounds\Welcome - Captain Greeting.wav</Start>
@@ -607,6 +607,5 @@
       </Waves>
     </Sound>
 
-	
   </Sounds>
 </Definitions>

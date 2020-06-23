@@ -600,10 +600,10 @@
       <Category>SOUND_MOD</Category>
       <MaxDistance>2000</MaxDistance>
       <Volume>1.00</Volume>
-      <Loopable>false</Loopable>
+      <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D3">
-          <Start>Audio\Sounds\Music - Canteen-ahh.xwm</Start>
+          <Loop>Audio\Sounds\Music - Canteen-ahh.xwm</Loop>
         </Wave>
       </Waves>
     </Sound>

@@ -177,15 +177,15 @@
             <W>0.75</W>
           </FlameFullColor>-->
           <FlameIdleColor>
-            <X>0.08</X>
-            <Y>0.47</Y>
-            <Z>0.94</Z>
+            <X>0.27</X>
+            <Y>0.40</Y>
+            <Z>0.65</Z>
             <W>0.75</W>
           </FlameIdleColor>
           <FlameFullColor>
-            <X>0.08</X>
-            <Y>0.47</Y>
-            <Z>0.94</Z>
+            <X>0.27</X>
+            <Y>0.40</Y>
+            <Z>0.65</Z>
             <W>0.75</W>
           </FlameFullColor>
           <FlamePointMaterial>JetpackThrustMiddle</FlamePointMaterial>
@@ -603,15 +603,15 @@
             <W>0.75</W>
           </FlameFullColor>-->
           <FlameIdleColor>
-            <X>0.08</X>
-            <Y>0.47</Y>
-            <Z>0.94</Z>
+            <X>0.27</X>
+            <Y>0.40</Y>
+            <Z>0.65</Z>
             <W>0.75</W>
           </FlameIdleColor>
           <FlameFullColor>
-            <X>0.08</X>
-            <Y>0.47</Y>
-            <Z>0.94</Z>
+            <X>0.27</X>
+            <Y>0.40</Y>
+            <Z>0.65</Z>
             <W>0.75</W>
           </FlameFullColor>
           <FlamePointMaterial>JetpackThrustMiddle</FlamePointMaterial>

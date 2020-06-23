@@ -41,7 +41,6 @@
         <SoundDesc Id="SoundsMod32" SoundName="Ambience - ST Hum 2" />
         <SoundDesc Id="SoundsMod33" SoundName="Ambience - Switch Generator" />
         <SoundDesc Id="SoundsMod34" SoundName="Ambience - Switch Mainframe" />
-        <SoundDesc Id="SoundsMod35" SoundName="Music - Canteen-ahh" />
         <SoundDesc Id="SoundsMod36" SoundName="Welcome - Captain Greeting" />
       </Sounds>
     </SoundCategory>
@@ -593,22 +592,6 @@
     </Sound>
 
     <Sound>
-      <Id>
-        <TypeId>AudioDefinition</TypeId>
-        <SubtypeId>SoundsMod35</SubtypeId>
-      </Id>
-      <Category>SOUND_MOD</Category>
-      <MaxDistance>2000</MaxDistance>
-      <Volume>1.00</Volume>
-      <Loopable>true</Loopable>
-      <Waves>
-        <Wave Type="D3">
-          <Loop>Audio\Sounds\Music - Canteen-ahh.xwm</Loop>
-        </Wave>
-      </Waves>
-    </Sound>
-
-        <Sound>
       <Id>
         <TypeId>AudioDefinition</TypeId>
         <SubtypeId>SoundsMod36</SubtypeId>

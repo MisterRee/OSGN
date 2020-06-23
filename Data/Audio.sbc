@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SoundCategories>
+    <SoundCategory>
+      <Id>
+        <TypeId>SoundCategoryDefinition</TypeId>
+        <SubtypeId>SoundMod</SubtypeId>
+      </Id>
+      <Sounds>
+        <SoundDesc Id="SoundsMod01" SoundName="Alarm - 10-Minute Auto Destruct" />
+        <SoundDesc Id="SoundsMod02" SoundName="Alarm - Air Raid" />
+        <SoundDesc Id="SoundsMod03" SoundName="Alarm - Airlock Pressurization Alert" />
+        <SoundDesc Id="SoundsMod04" SoundName="Alarm - Beeps" />
+        <SoundDesc Id="SoundsMod05" SoundName="Alarm - Containment Alert" />
+        <SoundDesc Id="SoundsMod06" SoundName="Alarm - Critical" />
+        <SoundDesc Id="SoundsMod07" SoundName="Alarm - Decompression Klaxon" />
+        <SoundDesc Id="SoundsMod08" SoundName="Alarm - General Emergency" />
+        <SoundDesc Id="SoundsMod09" SoundName="Alarm - Heightened Emergency Klaxon" />
+        <SoundDesc Id="SoundsMod10" SoundName="Alarm - High Pitch" />
+        <SoundDesc Id="SoundsMod11" SoundName="Alarm - High Priority" />
+        <SoundDesc Id="SoundsMod12" SoundName="Alarm - Lab" />
+        <SoundDesc Id="SoundsMod13" SoundName="Alarm - Nuclear" />
+        <SoundDesc Id="SoundsMod14" SoundName="Alarm - Operation" />
+        <SoundDesc Id="SoundsMod15" SoundName="Alarm - Quarantine Breach Klaxon" />
+        <SoundDesc Id="SoundsMod16" SoundName="Alarm - Radiation" />
+        <SoundDesc Id="SoundsMod17" SoundName="Alarm - Security Klaxon" />
+        <SoundDesc Id="SoundsMod18" SoundName="Alarm - Security" />
+        <SoundDesc Id="SoundsMod19" SoundName="Alarm - Self Desctruct" />
+        <SoundDesc Id="SoundsMod20" SoundName="Alarm - Ship Proximity Horn" />
+        <SoundDesc Id="SoundsMod21" SoundName="Alarm - Star Destroyer" />
+        <SoundDesc Id="SoundsMod22" SoundName="Ambience - Biomedical Equipment Hum" />
+        <SoundDesc Id="SoundsMod23" SoundName="Ambience - Flight Deck Shuddering" />
+        <SoundDesc Id="SoundsMod24" SoundName="Ambience - Fusion Reactor Overload" />
+        <SoundDesc Id="SoundsMod25" SoundName="Ambience - High-End Engine White Noise" />
+        <SoundDesc Id="SoundsMod26" SoundName="Ambience - Idle Fusion Reactor" />
+        <SoundDesc Id="SoundsMod27" SoundName="Ambience - Idle Generator" />
+        <SoundDesc Id="SoundsMod28" SoundName="Ambience - Low-End Engine White Noise" />
+        <SoundDesc Id="SoundsMod29" SoundName="Ambience - Mainframe Hum" />
+        <SoundDesc Id="SoundsMod30" SoundName="Ambience - Midgrade Engine White Noise" />
+        <SoundDesc Id="SoundsMod31" SoundName="Ambience - ST Hum 1" />
+        <SoundDesc Id="SoundsMod32" SoundName="Ambience - ST Hum 2" />
+        <SoundDesc Id="SoundsMod33" SoundName="Ambience - Switch Generator" />
+        <SoundDesc Id="SoundsMod34" SoundName="Ambience - Switch Mainframe" />
+        <SoundDesc Id="SoundsMod35" SoundName="Welcome - Captain Greeting" />
+      </Sounds>
+    </SoundCategory>
+  </SoundCategories>
+  <Sounds>
+  
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod01</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - 10-Minute Auto Destruct.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod02</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Air Raid.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod03</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Airlock Pressurization Alert.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod04</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Beeps.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod05</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Containment Alert.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod06</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Critical.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod07</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Decompression Klaxon.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod08</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - General Emergency.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod09</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Heightened Emergency Klaxon.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod10</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - High Pitch.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod11</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - High Priority.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod12</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Lab.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod13</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Nuclear.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod14</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Operation.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod15</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Quarantine Breach Klaxon.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod16</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Radiation.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod17</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Security Klaxon.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod18</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Security.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod19</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Self Desctruct.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod20</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Ship Proximity Horn.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod21</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Alarm - Star Destroyer.wav</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod22</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - Biomedical Equipment Hum.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod23</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - Flight Deck Shuddering.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod24</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - Fusion Reactor Overload.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod25</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - High-End Engine White Noise.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod26</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - Idle Fusion Reactor.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod27</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - Idle Generator.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod28</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - Low-End Engine White Noise.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod29</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - Mainframe Hum.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod30</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - Midgrade Engine White Noise.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod31</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - ST Hum 1.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod32</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - ST Hum 2.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod33</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - Switch Generator.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod34</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Sounds\Ambience - Switch Mainframe.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod35</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Sounds\Welcome - Captain Greeting.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+	
+  </Sounds>
+</Definitions>

@@ -7,7 +7,7 @@
     <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-        <SubtypeId>AmbTatooineDesertDayLoop</SubtypeId>
+        <SubtypeId>AmbDesertDayLoop2d</SubtypeId>
       </Id>
       <Category>AMB</Category>
       <MaxDistance>100</MaxDistance>
@@ -15,7 +15,7 @@
       <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D2">
-          <Loop>Audio\ARC\AMB\AmbTatooineDesertDayLoop.xwm</Loop>
+          <Loop>Audio\ARC\AMB\AmbDesertDayLoop2d.wav</Loop>
         </Wave>
       </Waves>
     </Sound>
@@ -23,7 +23,7 @@
     <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-        <SubtypeId>AmbTatooineDesertNightLoop</SubtypeId>
+        <SubtypeId>AmbIcelandDayLoop2d</SubtypeId>
       </Id>
       <Category>AMB</Category>
       <MaxDistance>100</MaxDistance>
@@ -31,7 +31,7 @@
       <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D2">
-          <Loop>Audio\ARC\AMB\AmbTatooineDesertNightLoop.xwm</Loop>
+          <Loop>Audio\ARC\AMB\AmbIcelandDayLoop2d.wav</Loop>
         </Wave>
       </Waves>
     </Sound>
@@ -39,7 +39,7 @@
     <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-        <SubtypeId>AmbTatooineDesertRocksDayLoop</SubtypeId>
+        <SubtypeId>AmbMarsLoop2d</SubtypeId>
       </Id>
       <Category>AMB</Category>
       <MaxDistance>100</MaxDistance>
@@ -47,7 +47,7 @@
       <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D2">
-          <Loop>Audio\ARC\AMB\AmbTatooineDesertRocksDayLoop.xwm</Loop>
+          <Loop>Audio\ARC\AMB\AmbMarsLoop2d.wav</Loop>
         </Wave>
       </Waves>
     </Sound>
@@ -55,7 +55,7 @@
     <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-        <SubtypeId>AmbTatooineDesertRocksNightLoop</SubtypeId>
+        <SubtypeId>AmbPoleDayLoop2d</SubtypeId>
       </Id>
       <Category>AMB</Category>
       <MaxDistance>100</MaxDistance>
@@ -63,23 +63,7 @@
       <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D2">
-          <Loop>Audio\ARC\AMB\AmbTatooineDesertRocksNightLoop.xwm</Loop>
-        </Wave>
-      </Waves>
-    </Sound>
-
-    <Sound>
-      <Id>
-        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-        <SubtypeId>AmbTatooineMountainsLoop</SubtypeId>
-      </Id>
-      <Category>AMB</Category>
-      <MaxDistance>100</MaxDistance>
-      <Volume>0.6</Volume>
-      <Loopable>true</Loopable>
-      <Waves>
-        <Wave Type="D2">
-          <Loop>Audio\ARC\AMB\AmbTatooineMountainsLoop.xwm</Loop>
+          <Loop>Audio\ARC\AMB\AmbPoleDayLoop2d.wav</Loop>
         </Wave>
       </Waves>
     </Sound>

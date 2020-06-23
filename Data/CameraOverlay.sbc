@@ -9,7 +9,7 @@
         <SubtypeId>SmallCameraBlock</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Camera</DisplayName>
-      <Icon>Textures\GUI\Screens\mod_camera_overlay.dds</Icon>
+      <Icon>Textures\GUI\Icons\Camera.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -47,6 +47,7 @@
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.00003</RequiredPowerInput>
+      <OverlayTexture>Textures\GUI\Screens\mod_camera_overlay.dds</OverlayTexture>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
       <Public>true</Public>

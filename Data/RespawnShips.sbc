@@ -6,12 +6,12 @@
     <Ship Enabled="true">
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
-        <SubtypeId>RespawnRover</SubtypeId>
+        <SubtypeId>Respawn_Rover</SubtypeId>
       </Id>
       <DisplayName>Respawn Rover</DisplayName>
       <Icon>Textures\GUI\Icons\RespawnShips\RespawnRover.png</Icon>
       <CooldownSeconds>900</CooldownSeconds>
-      <Prefab>RespawnRover</Prefab>
+      <Prefab>Respawn_Rover</Prefab>
       <PlanetDeployAltitude>1200</PlanetDeployAltitude>
       <PlanetTypes>
         <PlanetType>DustyDesertPlanet</PlanetType>

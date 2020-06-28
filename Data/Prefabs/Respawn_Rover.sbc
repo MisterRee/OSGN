@@ -2,21 +2,21 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Prefabs>
     <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
-      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="RespawnRover" />
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="Respawn_Rover" />
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>118932581200116038</EntityId>
+          <EntityId>101786228989245854</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
             <Position x="0" y="0" z="0" />
-            <Forward x="0.621188" y="-0.722952545" z="-0.302431732" />
-            <Up x="-0.343719661" y="-0.5981699" z="0.7239124" />
+            <Forward x="-0.473243535" y="-0.699576" z="-0.535382" />
+            <Up x="-0.8746494" y="0.44558838" z="0.190890551" />
             <Orientation>
-              <X>-0.384538144</X>
-              <Y>0.448234916</Y>
-              <Z>0.806979239</Z>
-              <W>-0.000624061155</W>
+              <X>-0.176101685</X>
+              <Y>0.448661566</Y>
+              <Z>0.496179432</Z>
+              <W>0.722147465</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -31,7 +31,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>132681988907162583</EntityId>
+              <EntityId>100262798412176589</EntityId>
               <Min x="0" y="9" z="-4" />
               <BlockOrientation Forward="Left" Up="Forward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -53,7 +53,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName />
-              <EntityId>135249909395492668</EntityId>
+              <EntityId>114598009577233932</EntityId>
               <Min x="-1" y="9" z="-7" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -105,7 +105,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>130161243226870673</EntityId>
+              <EntityId>113581838698008256</EntityId>
               <Min x="0" y="10" z="-4" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -113,7 +113,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>142303764099454503</EntityId>
+              <EntityId>138575796842810056</EntityId>
               <Min x="0" y="9" z="-3" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -141,7 +141,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Parachute">
               <SubtypeName>SmParachute</SubtypeName>
-              <EntityId>110432465989667711</EntityId>
+              <EntityId>134131307751772889</EntityId>
               <Min x="0" y="10" z="-3" />
               <BlockOrientation Forward="Left" Up="Up" />
               <ColorMaskHSV x="0.0416666679" y="-0.78" z="0.5" />
@@ -151,8 +151,16 @@
                   <ComponentData>
                     <TypeId>MyInventoryBase</TypeId>
                     <Component xsi:type="MyObjectBuilder_Inventory">
-                      <Items />
-                      <nextItemId>0</nextItemId>
+                      <Items>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>1</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                            <SubtypeName>Canvas</SubtypeName>
+                          </PhysicalContent>
+                          <ItemId>3</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                      </Items>
+                      <nextItemId>4</nextItemId>
                       <Volume>0.008</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
@@ -163,7 +171,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
-              <CustomName>Parachute Hatch 2</CustomName>
+              <CustomName>Parachute Hatch 1</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -171,7 +179,7 @@
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
               <AutoDeploy>true</AutoDeploy>
-              <DeployHeight>600.0001</DeployHeight>
+              <DeployHeight>500.000031</DeployHeight>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallHeavyBlockArmorCorner2Base</SubtypeName>
@@ -195,7 +203,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>98586003023421600</EntityId>
+              <EntityId>73848853938363462</EntityId>
               <Min x="-3" y="8" z="4" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -231,7 +239,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>82080166424971609</EntityId>
+              <EntityId>128858464493870497</EntityId>
               <Min x="0" y="8" z="-6" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -245,7 +253,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>SmallBlockGyro</SubtypeName>
-              <EntityId>127466418336191629</EntityId>
+              <EntityId>116366728033433033</EntityId>
               <Min x="-1" y="9" z="-3" />
               <BlockOrientation Forward="Backward" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -260,7 +268,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirVent">
               <SubtypeName>SmallAirVent</SubtypeName>
-              <EntityId>99006095887306518</EntityId>
+              <EntityId>115651394894772082</EntityId>
               <Min x="0" y="9" z="-5" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -274,7 +282,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
               <SubtypeName>SmallSuspension1x1</SubtypeName>
-              <EntityId>81138888280265994</EntityId>
+              <EntityId>139999124292805362</EntityId>
               <Min x="-1" y="8" z="-6" />
               <BlockOrientation Forward="Right" Up="Forward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -285,7 +293,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <TopBlockId>136232462725715448</TopBlockId>
+              <TopBlockId>109126375886539587</TopBlockId>
               <ShareInertiaTensor>false</ShareInertiaTensor>
               <SafetyDetach>5</SafetyDetach>
               <RotorEntityId xsi:nil="true" />
@@ -311,7 +319,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>SmallBlockGyro</SubtypeName>
-              <EntityId>121965098608988648</EntityId>
+              <EntityId>142051869713073865</EntityId>
               <Min x="1" y="9" z="-3" />
               <BlockOrientation Forward="Backward" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -421,18 +429,18 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
-              <EntityId>89603915795160475</EntityId>
+              <EntityId>83124049416312126</EntityId>
               <Min x="2" y="9" z="4" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
-              <CustomName>Battery 6</CustomName>
+              <CustomName>Battery 3</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>1</CurrentStoredPower>
+              <CurrentStoredPower>0.9967846</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -441,7 +449,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
               <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
-              <EntityId>74184256287449129</EntityId>
+              <EntityId>130763227641953538</EntityId>
               <Min x="-3" y="11" z="3" />
               <BlockOrientation Forward="Left" Up="Up" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -569,7 +577,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
               <SubtypeName>SmallWheel5x5</SubtypeName>
-              <EntityId>142084619666313523</EntityId>
+              <EntityId>134623182071836803</EntityId>
               <Min x="-2" y="12" z="5" />
               <BlockOrientation Forward="Left" Up="Up" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -619,7 +627,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>117082771089723947</EntityId>
+              <EntityId>129294814170410931</EntityId>
               <Min x="-3" y="10" z="1" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
@@ -655,7 +663,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>116739337214338211</EntityId>
+              <EntityId>110342177170225833</EntityId>
               <Min x="3" y="8" z="8" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -683,7 +691,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ReflectorLight">
               <SubtypeName>SmallBlockFrontLight</SubtypeName>
-              <EntityId>122652781546899798</EntityId>
+              <EntityId>114294683040192163</EntityId>
               <Min x="-3" y="10" z="0" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -705,7 +713,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
               <SubtypeName>DBSmallBlockFighterCockpit</SubtypeName>
-              <EntityId>112658219649092234</EntityId>
+              <EntityId>128871278550287541</EntityId>
               <Min x="-1" y="9" z="-2" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -714,21 +722,8 @@
                   <ComponentData>
                     <TypeId>MyInventoryBase</TypeId>
                     <Component xsi:type="MyObjectBuilder_Inventory">
-                      <Items>
-                        <MyObjectBuilder_InventoryItem>
-                          <Amount>1</Amount>
-                          <PhysicalContent xsi:type="MyObjectBuilder_Datapad">
-                            <SubtypeName>Datapad</SubtypeName>
-                            <Name>GPS SPRT - Station</Name>
-                            <Data>Looking for Reliable contracts? Good trades? Or just making good money? You are in luck! Opportunity awaits at these coordinates!
-
-GPS:SPRT - Station:120758.7:37124.36:-149748.63:
-</Data>
-                          </PhysicalContent>
-                          <ItemId>0</ItemId>
-                        </MyObjectBuilder_InventoryItem>
-                      </Items>
-                      <nextItemId>1</nextItemId>
+                      <Items />
+                      <nextItemId>6</nextItemId>
                       <Volume>1</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
@@ -747,7 +742,7 @@ GPS:SPRT - Station:120758.7:37124.36:-149748.63:
               <UseSingleWeaponMode>false</UseSingleWeaponMode>
               <Toolbar>
                 <ToolbarType>Character</ToolbarType>
-                <SelectedSlot>0</SelectedSlot>
+                <SelectedSlot xsi:nil="true" />
                 <Slots>
                   <Slot>
                     <Index>0</Index>
@@ -762,7 +757,7 @@ GPS:SPRT - Station:120758.7:37124.36:-149748.63:
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>Add Top Part</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>112658219649092234</BlockEntityId>
+                      <BlockEntityId>128871278550287541</BlockEntityId>
                       <GroupName>All Wheels</GroupName>
                     </Data>
                   </Slot>
@@ -771,7 +766,7 @@ GPS:SPRT - Station:120758.7:37124.36:-149748.63:
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <BlockEntityId>74184256287449129</BlockEntityId>
+                      <BlockEntityId>130763227641953538</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -780,7 +775,7 @@ GPS:SPRT - Station:120758.7:37124.36:-149748.63:
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>OnOff</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>112658219649092234</BlockEntityId>
+                      <BlockEntityId>128871278550287541</BlockEntityId>
                       <GroupName>Lights</GroupName>
                     </Data>
                   </Slot>
@@ -790,7 +785,7 @@ GPS:SPRT - Station:120758.7:37124.36:-149748.63:
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>Override</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>112658219649092234</BlockEntityId>
+                      <BlockEntityId>128871278550287541</BlockEntityId>
                       <GroupName>Gyroscopes</GroupName>
                     </Data>
                   </Slot>
@@ -800,7 +795,7 @@ GPS:SPRT - Station:120758.7:37124.36:-149748.63:
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>Recharge</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>112658219649092234</BlockEntityId>
+                      <BlockEntityId>128871278550287541</BlockEntityId>
                       <GroupName>Batteries</GroupName>
                     </Data>
                   </Slot>
@@ -823,14 +818,14 @@ GPS:SPRT - Station:120758.7:37124.36:-149748.63:
                 <SlotsGamepad />
               </BuildToolbar>
               <PilotRelativeWorld>
-                <Position x="2.4840490818023682" y="0.9205925464630127" z="1.3887163400650024" />
-                <Forward x="-0.6075374" y="-0.7276897" z="-0.3183812" />
-                <Up x="-0.6569715" y="0.6856515" z="-0.313482434" />
+                <Position x="2.4332497119903564" y="-0.9516717791557312" z="0.74136626720428467" />
+                <Forward x="-0.981206536" y="-0.10336154" z="-0.162942037" />
+                <Up x="-0.0819486454" y="0.9877127" z="-0.133071586" />
                 <Orientation>
-                  <X>-0.332559675</X>
-                  <Y>0.4798057</Y>
-                  <Z>0.2158203</Z>
-                  <W>0.7826954</W>
+                  <X>-0.0775236562</X>
+                  <Y>0.642276466</Y>
+                  <Z>-0.0115643535</Z>
+                  <W>0.762454748</W>
                 </Orientation>
               </PilotRelativeWorld>
               <PilotGunDefinition xsi:nil="true" />
@@ -1175,7 +1170,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName />
-              <EntityId>104226242864569445</EntityId>
+              <EntityId>130421197870137206</EntityId>
               <Min x="1" y="9" z="-7" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -1294,7 +1289,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>106680753697272833</EntityId>
+              <EntityId>128545656696144242</EntityId>
               <Min x="0" y="8" z="2" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1302,7 +1297,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
               <SubtypeName>SmallProjector</SubtypeName>
-              <EntityId>74843718588079922</EntityId>
+              <EntityId>96898810793294119</EntityId>
               <Min x="0" y="8" z="3" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.1" />
@@ -1334,7 +1329,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>121268160520897887</EntityId>
+              <EntityId>110355351095194840</EntityId>
               <Min x="-1" y="8" z="2" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1342,7 +1337,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>102008868227262227</EntityId>
+              <EntityId>112333570964062896</EntityId>
               <Min x="1" y="8" z="2" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1350,7 +1345,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>127550224411500182</EntityId>
+              <EntityId>117263204579322310</EntityId>
               <Min x="1" y="8" z="1" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1358,7 +1353,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>133529237991309519</EntityId>
+              <EntityId>72704496720166332</EntityId>
               <Min x="-1" y="8" z="1" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1378,7 +1373,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCorner</SubtypeName>
-              <EntityId>104590908079918163</EntityId>
+              <EntityId>76105178441946535</EntityId>
               <Min x="1" y="8" z="-3" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1386,7 +1381,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCorner</SubtypeName>
-              <EntityId>139340423229938309</EntityId>
+              <EntityId>123327840925776249</EntityId>
               <Min x="-1" y="8" z="-3" />
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1421,7 +1416,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>83932127847321396</EntityId>
+              <EntityId>99907206915699562</EntityId>
               <Min x="0" y="8" z="-2" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1429,7 +1424,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>90987039608987903</EntityId>
+              <EntityId>105768050886709524</EntityId>
               <Min x="-1" y="8" z="-1" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.1388889" y="-0.55" z="-0.2" />
@@ -1437,7 +1432,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>84715797789679692</EntityId>
+              <EntityId>74274742944232959</EntityId>
               <Min x="1" y="8" z="-2" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.1388889" y="-0.55" z="-0.2" />
@@ -1445,7 +1440,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>83412994290345002</EntityId>
+              <EntityId>72350400378620315</EntityId>
               <Min x="-1" y="8" z="-2" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.1388889" y="-0.55" z="-0.2" />
@@ -1453,7 +1448,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>120612912606334672</EntityId>
+              <EntityId>81548119490855559</EntityId>
               <Min x="1" y="8" z="0" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.1388889" y="-0.55" z="-0.2" />
@@ -1461,7 +1456,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>140302661562047905</EntityId>
+              <EntityId>137272588729211699</EntityId>
               <Min x="0" y="8" z="0" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1469,7 +1464,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
               <SubtypeName>SmallSuspension5x5mirrored</SubtypeName>
-              <EntityId>88160947925010903</EntityId>
+              <EntityId>114139393955391105</EntityId>
               <Min x="-4" y="7" z="10" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1480,12 +1475,12 @@ avoid trash removal.</Text>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <TopBlockId>111469433434575842</TopBlockId>
+              <TopBlockId>139356520166936875</TopBlockId>
               <ShareInertiaTensor>false</ShareInertiaTensor>
               <SafetyDetach>5</SafetyDetach>
               <RotorEntityId xsi:nil="true" />
               <WeldedEntityId xsi:nil="true" />
-              <SteerAngle>-0.01390335</SteerAngle>
+              <SteerAngle>0.0270912182</SteerAngle>
               <Damping>0.9</Damping>
               <Strength>3.40282347E+38</Strength>
               <Propulsion>true</Propulsion>
@@ -1506,7 +1501,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>135160797242214328</EntityId>
+              <EntityId>130129851021924880</EntityId>
               <Min x="-1" y="8" z="11" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.1388889" y="-0.55" z="-0.2" />
@@ -1514,7 +1509,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>107009444970822259</EntityId>
+              <EntityId>122678311053771859</EntityId>
               <Min x="-1" y="8" z="10" />
               <BlockOrientation Forward="Down" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1541,7 +1536,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>134236311842131698</EntityId>
+              <EntityId>101737211380577762</EntityId>
               <Min x="3" y="8" z="4" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1556,7 +1551,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>92531948944161941</EntityId>
+              <EntityId>121833616161100012</EntityId>
               <Min x="-3" y="8" z="5" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1564,7 +1559,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>89375199573035281</EntityId>
+              <EntityId>93993785538613355</EntityId>
               <Min x="3" y="8" z="6" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1572,7 +1567,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>123362030383879401</EntityId>
+              <EntityId>91044510183476759</EntityId>
               <Min x="3" y="8" z="5" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1580,7 +1575,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>104331240181430039</EntityId>
+              <EntityId>113864671721145757</EntityId>
               <Min x="-3" y="8" z="6" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1588,22 +1583,15 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>106580056013706091</EntityId>
+              <EntityId>89942617781752241</EntityId>
               <Min x="-3" y="8" z="7" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
-              <Min x="3" y="8" z="9" />
-              <BlockOrientation Forward="Left" Up="Backward" />
-              <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
-              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>103933422843624370</EntityId>
+              <EntityId>76592769018423187</EntityId>
               <Min x="1" y="8" z="10" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1611,7 +1599,7 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
-              <EntityId>107783041308075984</EntityId>
+              <EntityId>109634731688105959</EntityId>
               <Min x="-3" y="9" z="7" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1622,7 +1610,7 @@ avoid trash removal.</Text>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>1</CurrentStoredPower>
+              <CurrentStoredPower>0.9967732</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1645,15 +1633,16 @@ avoid trash removal.</Text>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>137213282353445446</EntityId>
+              <EntityId>128883036139268237</EntityId>
               <Min x="-1" y="7" z="10" />
+              <IntegrityPercent>0.832601845</IntegrityPercent>
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
               <SubtypeName>ConnectorMedium</SubtypeName>
-              <EntityId>119120749139228247</EntityId>
+              <EntityId>133900596354056700</EntityId>
               <Min x="-1" y="9" z="10" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1763,7 +1752,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
                           <ItemId>10</ItemId>
                         </MyObjectBuilder_InventoryItem>
                       </Items>
-                      <nextItemId>11</nextItemId>
+                      <nextItemId>18</nextItemId>
                       <Volume>1.152</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
@@ -1774,7 +1763,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
                   </ComponentData>
                 </Components>
               </ComponentContainer>
-              <CustomName>Connector 2</CustomName>
+              <CustomName>Connector</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -1789,7 +1778,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>130879690695776218</EntityId>
+              <EntityId>115842073757073423</EntityId>
               <Min x="3" y="10" z="1" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
@@ -1811,7 +1800,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>123445117032632582</EntityId>
+              <EntityId>101734747430351540</EntityId>
               <Min x="-3" y="8" z="8" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1838,7 +1827,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>141195441470670101</EntityId>
+              <EntityId>75150394300994635</EntityId>
               <Min x="3" y="8" z="7" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1853,7 +1842,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>124904982328933012</EntityId>
+              <EntityId>77132077341462557</EntityId>
               <Min x="0" y="8" z="-1" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1867,7 +1856,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>139292386513040896</EntityId>
+              <EntityId>123827181856408251</EntityId>
               <Min x="1" y="8" z="-1" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.1388889" y="-0.55" z="-0.2" />
@@ -1875,7 +1864,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>124369596425915306</EntityId>
+              <EntityId>121052914462369292</EntityId>
               <Min x="-1" y="8" z="0" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.1388889" y="-0.55" z="-0.2" />
@@ -1883,18 +1872,18 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
-              <EntityId>126702699899737024</EntityId>
+              <EntityId>119958553845675031</EntityId>
               <Min x="-3" y="9" z="4" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
-              <CustomName>Battery 5</CustomName>
+              <CustomName>Battery 2</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>1</CurrentStoredPower>
+              <CurrentStoredPower>0.9967761</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1909,7 +1898,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>102845662970512417</EntityId>
+              <EntityId>92716133051507894</EntityId>
               <Min x="0" y="8" z="1" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1917,7 +1906,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>130238848688807894</EntityId>
+              <EntityId>74016204150125664</EntityId>
               <Min x="0" y="8" z="-3" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1925,7 +1914,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ReflectorLight">
               <SubtypeName>SmallBlockFrontLight</SubtypeName>
-              <EntityId>124630520101959575</EntityId>
+              <EntityId>123019334084725212</EntityId>
               <Min x="3" y="10" z="0" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -1947,7 +1936,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>84882452680449472</EntityId>
+              <EntityId>109991065206860578</EntityId>
               <Min x="1" y="8" z="11" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.1388889" y="-0.55" z="-0.2" />
@@ -1955,7 +1944,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>123292437889207539</EntityId>
+              <EntityId>84662882913878807</EntityId>
               <Min x="-1" y="7" z="9" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1963,7 +1952,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
               <SubtypeName>SmallSuspension5x5</SubtypeName>
-              <EntityId>89158075538771421</EntityId>
+              <EntityId>86758142995456476</EntityId>
               <Min x="2" y="7" z="10" />
               <BlockOrientation Forward="Up" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -1974,12 +1963,12 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <TopBlockId>102892615813522565</TopBlockId>
+              <TopBlockId>118481778006646446</TopBlockId>
               <ShareInertiaTensor>false</ShareInertiaTensor>
               <SafetyDetach>5</SafetyDetach>
               <RotorEntityId xsi:nil="true" />
               <WeldedEntityId xsi:nil="true" />
-              <SteerAngle>-0.01390335</SteerAngle>
+              <SteerAngle>0.0270912182</SteerAngle>
               <Damping>0.9</Damping>
               <Strength>3.40282347E+38</Strength>
               <Propulsion>true</Propulsion>
@@ -2000,7 +1989,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OreDetector">
               <SubtypeName>SmallBlockOreDetector</SubtypeName>
-              <EntityId>81440495425245514</EntityId>
+              <EntityId>99578669265940206</EntityId>
               <Min x="2" y="11" z="3" />
               <BlockOrientation Forward="Right" Up="Forward" />
               <ColorMaskHSV x="0.1388889" y="-0.55" z="-0.2" />
@@ -2044,7 +2033,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>SmallBlockSmallLight</SubtypeName>
-              <EntityId>100806330172059698</EntityId>
+              <EntityId>138909238173593390</EntityId>
               <Min x="-1" y="8" z="12" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2068,7 +2057,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>SmallBlockSmallLight</SubtypeName>
-              <EntityId>139220631523201217</EntityId>
+              <EntityId>142548863111133661</EntityId>
               <Min x="1" y="8" z="12" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.1388889" y="-0.55" z="-0.2" />
@@ -2092,7 +2081,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>SmallBlockGyro</SubtypeName>
-              <EntityId>113493775293260385</EntityId>
+              <EntityId>72590118121438711</EntityId>
               <Min x="-2" y="9" z="3" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2106,7 +2095,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
               <SubtypeName>SmallWheel5x5</SubtypeName>
-              <EntityId>114487603878790495</EntityId>
+              <EntityId>99787251580802399</EntityId>
               <Min x="-2" y="7" z="4" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2127,7 +2116,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ReflectorLight">
               <SubtypeName>SmallBlockFrontLight</SubtypeName>
-              <EntityId>88241016262038123</EntityId>
+              <EntityId>138449261365231999</EntityId>
               <Min x="2" y="12" z="3" />
               <ColorMaskHSV x="0.1388889" y="-0.55" z="-0.2" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -2149,7 +2138,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ReflectorLight">
               <SubtypeName>SmallBlockFrontLight</SubtypeName>
-              <EntityId>139099442458788606</EntityId>
+              <EntityId>88127019086536048</EntityId>
               <Min x="-2" y="12" z="3" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -2171,7 +2160,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Parachute">
               <SubtypeName>SmParachute</SubtypeName>
-              <EntityId>92994232739309410</EntityId>
+              <EntityId>92453475823183219</EntityId>
               <Min x="0" y="12" z="10" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -2180,8 +2169,16 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
                   <ComponentData>
                     <TypeId>MyInventoryBase</TypeId>
                     <Component xsi:type="MyObjectBuilder_Inventory">
-                      <Items />
-                      <nextItemId>0</nextItemId>
+                      <Items>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>1</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                            <SubtypeName>Canvas</SubtypeName>
+                          </PhysicalContent>
+                          <ItemId>2</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                      </Items>
+                      <nextItemId>3</nextItemId>
                       <Volume>0.008</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
@@ -2192,13 +2189,15 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
                   </ComponentData>
                 </Components>
               </ComponentContainer>
-              <CustomName>Parachute Hatch 3</CustomName>
+              <CustomName>Parachute Hatch 2</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
+              <AutoDeploy>true</AutoDeploy>
+              <DeployHeight>500.000031</DeployHeight>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
@@ -2235,7 +2234,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCorner</SubtypeName>
-              <EntityId>122694233258630556</EntityId>
+              <EntityId>79352759768724078</EntityId>
               <Min x="2" y="12" z="4" />
               <BlockOrientation Forward="Right" Up="Backward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2243,7 +2242,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
               <SubtypeName>SmallSuspension1x1</SubtypeName>
-              <EntityId>91007339164061689</EntityId>
+              <EntityId>74686906143459734</EntityId>
               <Min x="1" y="8" z="-6" />
               <BlockOrientation Forward="Left" Up="Forward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2254,7 +2253,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <TopBlockId>86654710303567721</TopBlockId>
+              <TopBlockId>79777402439051025</TopBlockId>
               <ShareInertiaTensor>false</ShareInertiaTensor>
               <SafetyDetach>5</SafetyDetach>
               <RotorEntityId xsi:nil="true" />
@@ -2286,7 +2285,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SurvivalKit">
               <SubtypeName>SurvivalKit</SubtypeName>
-              <EntityId>127374194590462870</EntityId>
+              <EntityId>81938712108144603</EntityId>
               <Min x="-1" y="9" z="6" />
               <BlockOrientation Forward="Left" Up="Up" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -2338,7 +2337,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenGenerator">
               <SubtypeName>OxygenGeneratorSmall</SubtypeName>
-              <EntityId>117633588463201992</EntityId>
+              <EntityId>90856943659568312</EntityId>
               <Min x="-1" y="9" z="4" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -2349,7 +2348,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
                     <Component xsi:type="MyObjectBuilder_Inventory">
                       <Items>
                         <MyObjectBuilder_InventoryItem>
-                          <Amount>442.985823</Amount>
+                          <Amount>435.792244</Amount>
                           <PhysicalContent xsi:type="MyObjectBuilder_Ore">
                             <SubtypeName>Ice</SubtypeName>
                           </PhysicalContent>
@@ -2376,7 +2375,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
               <SubtypeName>SmallSuspension5x5mirrored</SubtypeName>
-              <EntityId>143151304615604815</EntityId>
+              <EntityId>83258363097213507</EntityId>
               <Min x="-4" y="7" z="-5" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2387,12 +2386,12 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <TopBlockId>143359409469764836</TopBlockId>
+              <TopBlockId>84252248681912539</TopBlockId>
               <ShareInertiaTensor>false</ShareInertiaTensor>
               <SafetyDetach>5</SafetyDetach>
               <RotorEntityId xsi:nil="true" />
               <WeldedEntityId xsi:nil="true" />
-              <SteerAngle>0.0139370151</SteerAngle>
+              <SteerAngle>-0.0270575527</SteerAngle>
               <Damping>0.9</Damping>
               <Strength>3.40282347E+38</Strength>
               <Propulsion>true</Propulsion>
@@ -2413,18 +2412,17 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>134260025067973994</EntityId>
+              <EntityId>109780029055348246</EntityId>
               <Min x="0" y="7" z="-4" />
+              <IntegrityPercent>0.3041842</IntegrityPercent>
               <BlockOrientation Forward="Backward" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
               <SubtypeName>SmallSuspension5x5</SubtypeName>
-              <EntityId>126422202430179595</EntityId>
+              <EntityId>85670795874206374</EntityId>
               <Min x="2" y="7" z="-5" />
-              <IntegrityPercent>0.933333337</IntegrityPercent>
-              <BuildPercent>0.933333337</BuildPercent>
               <BlockOrientation Forward="Up" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -2434,12 +2432,12 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <TopBlockId>132519857847118221</TopBlockId>
+              <TopBlockId>89463342878618725</TopBlockId>
               <ShareInertiaTensor>false</ShareInertiaTensor>
               <SafetyDetach>5</SafetyDetach>
               <RotorEntityId xsi:nil="true" />
               <WeldedEntityId xsi:nil="true" />
-              <SteerAngle>-0.0130890608</SteerAngle>
+              <SteerAngle>0.0279055089</SteerAngle>
               <Damping>0.9</Damping>
               <Strength>3.40282347E+38</Strength>
               <Propulsion>true</Propulsion>
@@ -2460,7 +2458,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>101947677831466422</EntityId>
+              <EntityId>76800767934624752</EntityId>
               <Min x="-1" y="7" z="-4" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2468,7 +2466,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>94457076624146416</EntityId>
+              <EntityId>84565098115707809</EntityId>
               <Min x="1" y="7" z="-4" />
               <BlockOrientation Forward="Backward" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2483,19 +2481,38 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>125600514214284373</EntityId>
+              <EntityId>142315382158295524</EntityId>
               <Min x="0" y="7" z="-5" />
+              <IntegrityPercent>0.6264003</IntegrityPercent>
+              <BuildPercent>0.99999994</BuildPercent>
               <BlockOrientation Forward="Backward" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>16</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>118555562635307506</EntityId>
+              <EntityId>113001895326772840</EntityId>
               <Min x="1" y="7" z="-5" />
+              <IntegrityPercent>0.15741308</IntegrityPercent>
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>64</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallHeavyBlockArmorBlock</SubtypeName>
@@ -2505,7 +2522,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>SmallBlockSmallLight</SubtypeName>
-              <EntityId>113551147361809239</EntityId>
+              <EntityId>114643658957010545</EntityId>
               <Min x="2" y="9" z="-5" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2527,7 +2544,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>SmallBlockSmallLight</SubtypeName>
-              <EntityId>92550773125290846</EntityId>
+              <EntityId>127779507328864241</EntityId>
               <Min x="-2" y="9" z="-5" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2549,7 +2566,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCorner</SubtypeName>
-              <EntityId>72695816773850714</EntityId>
+              <EntityId>142484852561703880</EntityId>
               <Min x="-2" y="12" z="4" />
               <BlockOrientation Forward="Right" Up="Backward" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2570,7 +2587,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>130733215487824463</EntityId>
+              <EntityId>127521306895956601</EntityId>
               <Min x="-1" y="7" z="-5" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2578,7 +2595,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>83480684506323353</EntityId>
+              <EntityId>104221110757250210</EntityId>
               <Min x="1" y="7" z="10" />
               <BlockOrientation Forward="Backward" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2586,7 +2603,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>94482575618441144</EntityId>
+              <EntityId>123297798448140778</EntityId>
               <Min x="1" y="7" z="9" />
               <BlockOrientation Forward="Backward" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2594,28 +2611,28 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>82707164369194209</EntityId>
+              <EntityId>74489323675512872</EntityId>
               <Min x="0" y="7" z="9" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>121559712447322544</EntityId>
+              <EntityId>133315201044745787</EntityId>
               <Min x="0" y="7" z="10" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>125192813455938634</EntityId>
+              <EntityId>101463128219106953</EntityId>
               <Min x="0" y="7" z="11" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>78000527234206509</EntityId>
+              <EntityId>117712745901799425</EntityId>
               <Min x="-1" y="7" z="11" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2623,7 +2640,7 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorInvCorner</SubtypeName>
-              <EntityId>73324064429857731</EntityId>
+              <EntityId>109661780829888771</EntityId>
               <Min x="1" y="7" z="11" />
               <BlockOrientation Forward="Backward" Up="Right" />
               <ColorMaskHSV x="0.625" y="-0.8" z="-0.3" />
@@ -2631,6 +2648,54 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
           <Skeleton>
+            <BoneInfo>
+              <BonePosition x="6" y="16" z="20" />
+              <BoneOffset x="159" y="127" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="16" z="18" />
+              <BoneOffset x="159" y="127" z="159" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="16" z="17" />
+              <BoneOffset x="127" y="140" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="18" z="21" />
+              <BoneOffset x="131" y="110" z="99" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="18" z="20" />
+              <BoneOffset x="127" y="120" z="113" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="18" z="19" />
+              <BoneOffset x="131" y="113" z="100" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="18" z="18" />
+              <BoneOffset x="127" y="111" z="116" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="18" z="17" />
+              <BoneOffset x="128" y="120" z="146" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="18" z="20" />
+              <BoneOffset x="153" y="101" z="103" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="18" z="18" />
+              <BoneOffset x="159" y="127" z="159" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="18" z="19" />
+              <BoneOffset x="127" y="114" z="121" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="17" z="20" />
+              <BoneOffset x="127" y="127" z="107" />
+            </BoneInfo>
             <BoneInfo>
               <BonePosition x="4" y="17" z="19" />
               <BoneOffset x="124" y="127" z="125" />
@@ -2648,20 +2713,68 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
               <BoneOffset x="118" y="126" z="152" />
             </BoneInfo>
             <BoneInfo>
+              <BonePosition x="5" y="16" z="19" />
+              <BoneOffset x="127" y="140" z="108" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="16" z="18" />
+              <BoneOffset x="126" y="144" z="108" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="18" z="18" />
+              <BoneOffset x="107" y="107" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="18" z="17" />
+              <BoneOffset x="114" y="122" z="127" />
+            </BoneInfo>
+            <BoneInfo>
               <BonePosition x="5" y="17" z="20" />
               <BoneOffset x="127" y="127" z="96" />
             </BoneInfo>
             <BoneInfo>
-              <BonePosition x="-1" y="17" z="20" />
-              <BoneOffset x="127" y="127" z="107" />
+              <BonePosition x="1" y="15" z="-8" />
+              <BoneOffset x="124" y="65" z="129" />
             </BoneInfo>
             <BoneInfo>
               <BonePosition x="3" y="17" z="20" />
               <BoneOffset x="127" y="127" z="148" />
             </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="14" z="-8" />
+              <BoneOffset x="126" y="104" z="128" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="17" z="18" />
+              <BoneOffset x="159" y="127" z="159" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="18" z="17" />
+              <BoneOffset x="126" y="118" z="150" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="18" z="18" />
+              <BoneOffset x="129" y="100" z="155" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="16" z="17" />
+              <BoneOffset x="127" y="131" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="17" z="20" />
+              <BoneOffset x="159" y="127" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="17" z="17" />
+              <BoneOffset x="117" y="128" z="154" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="8" y="17" z="18" />
+              <BoneOffset x="107" y="123" z="144" />
+            </BoneInfo>
           </Skeleton>
-          <LinearVelocity x="-0.025174683" y="-0.04436578" z="0.04560791" />
-          <AngularVelocity x="-0.0005692167" y="0.00115473755" z="0.0007702705" />
+          <LinearVelocity x="-0.0583318621" y="0.0328743234" z="0.0132504012" />
+          <AngularVelocity x="-0.000280632637" y="-0.0002655671" z="-7.620509E-05" />
           <ConveyorLines>
             <MyObjectBuilder_ConveyorLine>
               <StartPosition x="0" y="10" z="3" />
@@ -2854,16 +2967,6 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
               </Blocks>
             </MyObjectBuilder_BlockGroup>
             <MyObjectBuilder_BlockGroup>
-              <Name>Parachutes</Name>
-              <Blocks>
-                <Vector3I>
-                  <X>0</X>
-                  <Y>10</Y>
-                  <Z>-3</Z>
-                </Vector3I>
-              </Blocks>
-            </MyObjectBuilder_BlockGroup>
-            <MyObjectBuilder_BlockGroup>
               <Name>All Wheels</Name>
               <Blocks>
                 <Vector3I>
@@ -2885,6 +2988,21 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
                   <X>3</X>
                   <Y>8</Y>
                   <Z>-4</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+            <MyObjectBuilder_BlockGroup>
+              <Name>Parachutes</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>0</X>
+                  <Y>10</Y>
+                  <Z>-3</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>0</X>
+                  <Y>12</Y>
+                  <Z>10</Z>
                 </Vector3I>
               </Blocks>
             </MyObjectBuilder_BlockGroup>
@@ -2910,17 +3028,17 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
         </CubeGrid>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>72357938480646131</EntityId>
+          <EntityId>80889794817789004</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="1.4294948577880859" y="-4.70074462890625" z="2.3198983669281006" />
-            <Forward x="-0.345026433" y="-0.598810434" z="0.7227607" />
-            <Up x="0.6211878" y="-0.722952962" z="-0.302431434" />
+            <Position x="-5.28106689453125" y="-1.18365478515625" z="-0.481048583984375" />
+            <Forward x="-0.874923944" y="0.444111228" z="0.193062663" />
+            <Up x="-0.473243356" y="-0.699576139" z="-0.5353818" />
             <Orientation>
-              <X>0.887318254</X>
-              <Y>0.272115171</Y>
-              <Z>0.2722918</Z>
-              <W>-0.253922939</W>
+              <X>0.6689417</X>
+              <Y>-0.386067837</Y>
+              <Z>0.6342753</Z>
+              <W>-0.0341100879</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -2928,12 +3046,12 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
               <SubtypeName>SmallRealWheel1x1</SubtypeName>
-              <EntityId>136232462725715448</EntityId>
+              <EntityId>109126375886539587</EntityId>
               <YieldLastComponent>false</YieldLastComponent>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
-          <LinearVelocity x="-0.0263833012" y="-0.0454833731" z="0.0464965776" />
-          <AngularVelocity x="-0.000469289953" y="0.0009635133" z="0.0006092121" />
+          <LinearVelocity x="-0.0622471273" y="0.03452569" z="0.0149287488" />
+          <AngularVelocity x="-0.00026455964" y="-0.000247108052" z="-3.436755E-05" />
           <DisplayName>Small Grid 7718</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <CreatePhysics>false</CreatePhysics>
@@ -2945,17 +3063,17 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
         </CubeGrid>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>139884479171414735</EntityId>
+          <EntityId>91272375562940664</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="-3.432830810546875" y="2.9092807769775391" z="6.6603968143463135" />
-            <Forward x="-0.621333063" y="0.7228277" z="0.302431762" />
-            <Up x="0.70431143" y="0.346085846" z="0.6198144" />
+            <Position x="-1.0484619140625" y="4.74957275390625" z="6.3944091796875" />
+            <Forward x="0.473234415" y="0.6995773" z="0.5353886" />
+            <Up x="-0.105089977" y="-0.558577836" z="0.8227679" />
             <Orientation>
-              <X>0.570021451</X>
-              <Y>0.5712193</Y>
-              <Z>-0.04508487</Z>
-              <W>0.588856041</W>
+              <X>0.861483037</X>
+              <Y>-0.159816265</Y>
+              <Z>-0.192706659</Z>
+              <W>0.441780359</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -2963,12 +3081,12 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
               <SubtypeName>SmallRealWheel5x5mirrored</SubtypeName>
-              <EntityId>111469433434575842</EntityId>
+              <EntityId>139356520166936875</EntityId>
               <YieldLastComponent>false</YieldLastComponent>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
-          <LinearVelocity x="-0.00427154731" y="-0.00365159" z="-0.00333121978" />
-          <AngularVelocity x="0.00416832231" y="-0.003654886" z="-0.0013746348" />
+          <LinearVelocity x="-0.000535697152" y="0.003473299" z="-0.002164559" />
+          <AngularVelocity x="-0.00174150593" y="-0.00169743458" z="-0.00234623533" />
           <DisplayName>Small Grid 4306</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <CreatePhysics>false</CreatePhysics>
@@ -2980,17 +3098,17 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
         </CubeGrid>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>72673042167420496</EntityId>
+          <EntityId>80399173977618567</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="-6.014862060546875" y="-0.4091644287109375" z="2.6765954494476318" />
-            <Forward x="0.6211781" y="-0.72296983" z="-0.302410573" />
-            <Up x="-0.704247" y="-0.345711827" z="-0.620096" />
+            <Position x="-1.4256591796875" y="6.3878173828125" z="0.851654052734375" />
+            <Forward x="-0.473141134" y="-0.699622452" z="-0.535411835" />
+            <Up x="0.1049148" y="0.558670461" z="-0.822727263" />
             <Orientation>
-              <X>-0.5888687</X>
-              <Y>0.045037698</Y>
-              <Z>0.5710426</Z>
-              <W>0.5701891</W>
+              <X>-0.441767752</X>
+              <Y>0.1927053</Y>
+              <Z>-0.159706041</Z>
+              <W>0.8615102</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -2998,12 +3116,12 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
               <SubtypeName>SmallRealWheel5x5</SubtypeName>
-              <EntityId>102892615813522565</EntityId>
+              <EntityId>118481778006646446</EntityId>
               <YieldLastComponent>false</YieldLastComponent>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
-          <LinearVelocity x="-0.028724771" y="-0.0481290147" z="0.0480668359" />
-          <AngularVelocity x="-0.00082526583" y="0.00124037522" z="0.000663536834" />
+          <LinearVelocity x="-0.00148588337" y="-3.607408E-05" z="0.0025829915" />
+          <AngularVelocity x="0.00108157331" y="0.001734709" z="0.000584662659" />
           <DisplayName>Small Grid 8069</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <CreatePhysics>false</CreatePhysics>
@@ -3015,17 +3133,17 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
         </CubeGrid>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>76440288428804036</EntityId>
+          <EntityId>78485150422204395</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="0.27893638610839844" y="-5.2655410766601563" z="1.3068192005157471" />
-            <Forward x="0.345015943" y="0.598814" z="-0.722762465" />
-            <Up x="0.621190846" y="-0.72294724" z="-0.302437365" />
+            <Position x="-5.10882568359375" y="-0.26751708984375" z="-1.83038330078125" />
+            <Forward x="0.874928355" y="-0.444101036" z="-0.193065867" />
+            <Up x="-0.47323665" y="-0.699579358" z="-0.535383344" />
             <Orientation>
-              <X>-0.2722875</X>
-              <Y>-0.2539257</Y>
-              <Z>0.8873181</Z>
-              <W>-0.272117466</W>
+              <X>-0.6342738</X>
+              <Y>-0.0341143422</Y>
+              <Z>0.6689443</Z>
+              <W>0.386065334</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -3033,12 +3151,12 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
               <SubtypeName>SmallRealWheel1x1</SubtypeName>
-              <EntityId>86654710303567721</EntityId>
+              <EntityId>79777402439051025</EntityId>
               <YieldLastComponent>false</YieldLastComponent>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
-          <LinearVelocity x="-0.0266926177" y="-0.0462958924" z="0.0474740341" />
-          <AngularVelocity x="-0.000829510856" y="0.00124148733" z="0.000662620761" />
+          <LinearVelocity x="-0.06071473" y="0.03429879" z="0.013236858" />
+          <AngularVelocity x="-0.000243058515" y="-0.00013153757" z="-0.0002447081" />
           <DisplayName>Small Grid 7232</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <CreatePhysics>false</CreatePhysics>
@@ -3050,17 +3168,17 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
         </CubeGrid>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>115784027593749775</EntityId>
+          <EntityId>120869758326754617</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="1.2152290344238281" y="-2.5316162109375" z="4.4144995212554932" />
-            <Forward x="-0.621191263" y="0.722936153" z="0.30246377" />
-            <Up x="0.7042582" y="0.345709383" z="0.6200849" />
+            <Position x="-4.636962890625" y="-0.4774169921875" z="2.387786865234375" />
+            <Forward x="0.47323072" y="0.6995805" z="0.535386562" />
+            <Up x="-0.104787856" y="-0.5587285" z="0.8227034" />
             <Orientation>
-              <X>0.570191145</X>
-              <Y>0.571063936</Y>
-              <Z>-0.04502621</Z>
-              <W>0.5888469</W>
+              <X>0.8615102</X>
+              <Y>-0.159666955</Y>
+              <Z>-0.192780972</Z>
+              <W>0.4417489</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -3068,12 +3186,12 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
               <SubtypeName>SmallRealWheel5x5mirrored</SubtypeName>
-              <EntityId>143359409469764836</EntityId>
+              <EntityId>84252248681912539</EntityId>
               <YieldLastComponent>false</YieldLastComponent>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
-          <LinearVelocity x="-0.003874797" y="-0.00390161481" z="-0.003570511" />
-          <AngularVelocity x="0.0042105196" y="-0.00351832225" z="-0.00101619866" />
+          <LinearVelocity x="-0.000391247682" y="0.00311633828" z="-0.0008281779" />
+          <AngularVelocity x="-0.00214383076" y="-0.00226234761" z="-0.00270082522" />
           <DisplayName>Small Grid 1843</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <CreatePhysics>false</CreatePhysics>
@@ -3085,17 +3203,17 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
         </CubeGrid>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>104359608308874121</EntityId>
+          <EntityId>122072140012698392</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="-1.3742904663085938" y="-5.8629589080810547" z="0.44618487358093262" />
-            <Forward x="0.621035" y="-0.72316587" z="-0.3022362" />
-            <Up x="-0.7042353" y="-0.3455823" z="-0.6201819" />
+            <Position x="-5.01007080078125" y="1.15875244140625" z="-3.1561279296875" />
+            <Forward x="-0.47320205" y="-0.699633539" z="-0.535343468" />
+            <Up x="0.105144992" y="0.5584884" z="-0.822821438" />
             <Orientation>
-              <X>-0.588938236</X>
-              <Y>0.0450960919</Y>
-              <Z>0.5709141</Z>
-              <W>0.570241332</W>
+              <X>-0.441821426</X>
+              <Y>0.192670882</Y>
+              <Z>-0.159842372</Z>
+              <W>0.8614651</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -3103,12 +3221,12 @@ Asteroid Belt ---- Uranium, Volantium, Tearium
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
               <SubtypeName>SmallRealWheel5x5</SubtypeName>
-              <EntityId>132519857847118221</EntityId>
+              <EntityId>89463342878618725</EntityId>
               <YieldLastComponent>false</YieldLastComponent>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
-          <LinearVelocity x="-0.0003271167" y="-0.00289068487" z="0.000315788959" />
-          <AngularVelocity x="0.00153547851" y="-0.000324463" z="0.000946401851" />
+          <LinearVelocity x="-0.00102664763" y="0.000556524959" z="0.00212320825" />
+          <AngularVelocity x="0.00124312367" y="0.00183808175" z="0.0007251133" />
           <DisplayName>Small Grid 9757</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <CreatePhysics>false</CreatePhysics>

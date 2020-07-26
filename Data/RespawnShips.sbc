@@ -6,19 +6,19 @@
     <Ship Enabled="true">
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
-        <SubtypeId>Respawn_Rover</SubtypeId>
+        <SubtypeId>RespawnShip</SubtypeId>
       </Id>
-      <DisplayName>Respawn Rover</DisplayName>
-      <Icon>Textures\GUI\Icons\RespawnShips\RespawnRover.png</Icon>
+      <DisplayName>Respawn Ship</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnShip.png</Icon>
       <CooldownSeconds>900</CooldownSeconds>
-      <Prefab>Respawn_Rover</Prefab>
-      <PlanetDeployAltitude>1200</PlanetDeployAltitude>
+      <Prefab>RespawnShip</Prefab>
+      <PlanetDeployAltitude>400</PlanetDeployAltitude>
       <PlanetTypes>
         <PlanetType>DustyDesertPlanet</PlanetType>
       </PlanetTypes>
-      <InitialLinearVelocity x="0" y="-95" z="0" />
+      <InitialLinearVelocity x="0" y="0" z="0" />
       <InitialAngularVelocity x="0" y="0.5" z="0" />
-      <HelpTextLocalizationId>Take this Buggy to get started on your journey.</HelpTextLocalizationId>
+      <HelpTextLocalizationId>A ship to call home.</HelpTextLocalizationId>
     </Ship>
 
     <Ship Enabled="false">

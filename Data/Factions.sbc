@@ -33,7 +33,7 @@
       <AcceptHumans>false</AcceptHumans>
       <AutoAcceptMember>false</AutoAcceptMember>
       <DiscoveredByDefault>true</DiscoveredByDefault>
-      <FactionIcon>Textures\FactionLogo\VNTC.dds</FactionIcon>
+      <FactionIcon>Textures\FactionLogo\Builders\BuilderIcon_4.dds</FactionIcon>
     </Faction>
 
     <Faction Tag="LOAF" Founder="D Arnold Becker">
@@ -50,7 +50,7 @@
       <AcceptHumans>false</AcceptHumans>
       <AutoAcceptMember>false</AutoAcceptMember>
       <DiscoveredByDefault>true</DiscoveredByDefault>
-      <FactionIcon>Textures\FactionLogo\VNTC.dds</FactionIcon>
+      <FactionIcon>Textures\FactionLogo\Builders\BuilderIcon_4.dds</FactionIcon>
     </Faction>
 
   </Factions>

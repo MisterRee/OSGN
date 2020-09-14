@@ -71,6 +71,11 @@
             <DestroySound>WepSmallMissileExpl</DestroySound>
             <PCU>40</PCU>
             <IsAirTight>true</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>120</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <!--        Tier 4-->
@@ -142,6 +147,11 @@
             <AssemblySpeed>4</AssemblySpeed>
             <PCU>40</PCU>
             <IsAirTight>true</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>120</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <!--        Tier 8-->
@@ -213,6 +223,11 @@
             <DestroySound>WepSmallMissileExpl</DestroySound>
             <PCU>40</PCU>
             <IsAirTight>true</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>120</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
     </CubeBlocks>
 </Definitions>

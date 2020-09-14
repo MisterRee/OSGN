@@ -73,6 +73,10 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>125</PCU>
             <IsAirTight>false</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>10</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <!--        Tier 2-->
@@ -151,6 +155,10 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>125</PCU>
             <IsAirTight>false</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>10</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <!--        Tier 4-->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -228,8 +236,10 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>125</PCU>
             <IsAirTight>false</IsAirTight>
-
-
+            <TieredUpdateTimes>
+                <unsignedInt>10</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <!--        Tier 8-->
@@ -308,8 +318,10 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>125</PCU>
             <IsAirTight>false</IsAirTight>
-
-
+            <TieredUpdateTimes>
+                <unsignedInt>10</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
     </CubeBlocks>
 </Definitions>

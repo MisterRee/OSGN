@@ -42,6 +42,7 @@
         <SoundDesc Id="SoundsMod33" SoundName="Ambience - Switch Generator" />
         <SoundDesc Id="SoundsMod34" SoundName="Ambience - Switch Mainframe" />
         <SoundDesc Id="SoundsMod36" SoundName="Welcome - Captain Greeting" />
+        <SoundDesc Id="SoundsMod37" SoundName="Unknown" />
       </Sounds>
     </SoundCategory>
   </SoundCategories>
@@ -607,6 +608,21 @@
       </Waves>
     </Sound>
 
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SoundsMod37</SubtypeId>
+      </Id>
+      <Category>SOUND_MOD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Sounds\Unknown.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
 	
   </Sounds>
 </Definitions>

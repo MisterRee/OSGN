@@ -72,7 +72,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
             <IsAirTight>false</IsAirTight>
-
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <!--Small Large Reactor-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
@@ -147,7 +151,11 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
-
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <!--Small Reactor-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
@@ -219,7 +227,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
             <IsAirTight>false</IsAirTight>
-
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <!--Large Reactor-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
@@ -292,7 +304,11 @@
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
             <IsAirTight>false</IsAirTight>
-
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <!--        Tier 4-->
@@ -366,7 +382,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
             <IsAirTight>false</IsAirTight>
-
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <!--Small Large Reactor-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
@@ -441,7 +461,11 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
-
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <!--Small Reactor-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
@@ -513,7 +537,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
             <IsAirTight>false</IsAirTight>
-
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <!--Large Reactor-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
@@ -586,7 +614,11 @@
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
             <IsAirTight>false</IsAirTight>
-
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <!--        Tier 8-->
@@ -660,7 +692,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
             <IsAirTight>false</IsAirTight>
-
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <!--Small Large Reactor-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
@@ -735,7 +771,11 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
-
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <!--Small Reactor-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
@@ -807,7 +847,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
             <IsAirTight>false</IsAirTight>
-
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <!--Large Reactor-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
@@ -880,7 +924,11 @@
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
             <IsAirTight>false</IsAirTight>
-
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
     </CubeBlocks>
 </Definitions>

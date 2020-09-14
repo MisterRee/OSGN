@@ -65,6 +65,11 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <PCU>90</PCU>
+      <TieredUpdateTimes>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>120</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
@@ -134,6 +139,11 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <PCU>90</PCU>
+      <TieredUpdateTimes>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>120</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
 
   </CubeBlocks>

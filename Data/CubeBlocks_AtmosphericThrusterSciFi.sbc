@@ -103,6 +103,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -209,6 +214,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -313,6 +323,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -419,6 +434,11 @@
             <PCU>15</PCU>
             <IsAirTight>false</IsAirTight>
             <DLC>SparksOfTheFuture</DLC>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
 
@@ -526,6 +546,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -632,6 +657,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -736,6 +766,12 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -842,6 +878,11 @@
             <PCU>15</PCU>
             <IsAirTight>false</IsAirTight>
             <DLC>SparksOfTheFuture</DLC>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
 
@@ -950,6 +991,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -1056,6 +1102,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -1160,6 +1211,11 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
             <DLC>SparksOfTheFuture</DLC>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -1266,6 +1322,11 @@
             <PCU>15</PCU>
             <IsAirTight>false</IsAirTight>
             <DLC>SparksOfTheFuture</DLC>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
     </CubeBlocks>
 </Definitions>

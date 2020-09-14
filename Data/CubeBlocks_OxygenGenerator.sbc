@@ -93,6 +93,11 @@
             <MirroringX>Z</MirroringX>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <!--Large Oxygengenerator-->
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
@@ -177,6 +182,11 @@
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <PCU>50</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <!--    Tier 2-->
@@ -266,7 +276,11 @@
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <PCU>50</PCU>
-
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <!--Small Oxygengenerator-->
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
@@ -363,7 +377,11 @@
             <MirroringX>Z</MirroringX>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
-
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <!--    Tier 4-->
@@ -453,7 +471,11 @@
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <PCU>50</PCU>
-
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
@@ -550,7 +572,11 @@
             <MirroringX>Z</MirroringX>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
-
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <!--    Tier 8-->
@@ -639,7 +665,11 @@
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <PCU>50</PCU>
-
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
         <!--Small Oxygengenerator-->
@@ -737,7 +767,11 @@
             <MirroringX>Z</MirroringX>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
-
+            <TieredUpdateTimes>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+                <unsignedInt>1200</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
     </CubeBlocks>
 </Definitions>

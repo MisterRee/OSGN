@@ -74,6 +74,11 @@
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -142,6 +147,11 @@
             <DestroyEffect>Explosion_Missile</DestroyEffect>
             <DestroySound>WepSmallMissileExpl</DestroySound>
             <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -227,6 +237,11 @@
             <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -295,6 +310,11 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes>
         </Definition>
 
 
@@ -371,6 +391,11 @@
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes>   
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -439,6 +464,11 @@
             <DestroyEffect>Explosion_Missile</DestroyEffect>
             <DestroySound>WepSmallMissileExpl</DestroySound>
             <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes> 
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -524,6 +554,11 @@
             <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes> 
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -592,6 +627,11 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes> 
         </Definition>
 
 
@@ -668,6 +708,11 @@
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes> 
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -736,6 +781,11 @@
             <DestroyEffect>Explosion_Missile</DestroyEffect>
             <DestroySound>WepSmallMissileExpl</DestroySound>
             <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes> 
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -821,6 +871,11 @@
             <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes> 
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -889,6 +944,11 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes> 
         </Definition>
     </CubeBlocks>
 </Definitions>

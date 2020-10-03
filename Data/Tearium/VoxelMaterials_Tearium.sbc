@@ -11,11 +11,11 @@
             </Id>
             <MaterialTypeName>Rock</MaterialTypeName>
             <MinedOre>Tearium</MinedOre>
-            <MinedOreRatio>0.2</MinedOreRatio>
+            <MinedOreRatio>0.3</MinedOreRatio>
             <CanBeHarvested>true</CanBeHarvested>
             <IsRare>true</IsRare>
             <SpawnsInAsteroids>true</SpawnsInAsteroids>
-            <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
+            <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
             <ColorMetalXZnY>Textures\Voxels\tearium_cm.dds</ColorMetalXZnY>
             <NormalGlossXZnY>Textures\Voxels\tearium_ng.dds</NormalGlossXZnY>
             <ExtXZnY>Textures\Voxels\tearium_add.dds</ExtXZnY>
